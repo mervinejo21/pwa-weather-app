@@ -9,7 +9,6 @@ export const fetchWeather = async (cityName) => {
       q: cityName,
       key: API_KEY,
     },
-  });
-
+  });  
   return data;
 };
